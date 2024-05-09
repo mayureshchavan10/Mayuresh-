@@ -1,0 +1,20 @@
+git init
+git status
+git add .
+git commit -m "comment"
+git config --global user.email "rohitpujari.sae.comp@gmail.com"
+git config --global user.name "Rohit Pujari"
+
+promt --> sign in with browser
+
+git checkout -b Rohit_Pujari_RWI379
+git remote add origin https://github.com/Gautam2023/Python-Online-Training-Batch-2.git
+git push origin Rohit_Pujari_RWI379
+
+
+note - replace username & email according to you.
+
+
+
+
+ 
