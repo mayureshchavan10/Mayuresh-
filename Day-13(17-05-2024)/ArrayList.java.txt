@@ -1,0 +1,27 @@
+package Day12;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+    public static void main(String[] args) {
+        ArrayList a1 = new ArrayList();
+
+
+        a1.add(100);
+        a1.add("Mayuresh");
+        a1.add(10.12);
+        a1.add("pooja");
+        a1.add(10.20);
+        a1.add('A');
+         
+        a1.remove("pooja");   //Remove element
+
+        //++++inserting Element
+        a1.add(0,"Pankaj");
+        System.out.println("All Element is : "  +  a1);  //print Element
+        System.out.println("Size of array is : "+ a1.size()); //Size of array
+
+
+
+    }
+}
