@@ -1,0 +1,24 @@
+package Day14;
+
+import java.util.TreeSet;
+
+public class TreeSet1 {
+    public static void main(String[] args) {
+        TreeSet <String>Ts=new TreeSet<String>();
+         Ts.add("Mayuresh");
+        Ts.add("Nayan");
+        Ts.add("Orieo");
+        Ts.add("Pankaj");
+        Ts.add("Quntum");
+        Ts.add("Rohit");
+        Ts.add("Suraj");
+
+//        System.out.println("All Element Are :" + Ts);
+//        System.out.println("The Size Of treeset is :" + Ts.size());
+
+        for(Object o: Ts){
+            System.out.println(o);
+        }
+
+    }
+}
