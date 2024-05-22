@@ -1,0 +1,55 @@
+/*-------Create database -----*/
+
+Create database School;
+Use School;
+
+/*-----Create User Table----*/
+Create Table user
+(Std_id int primary key,
+ Std_Name VARCHAR (16),
+ Std_Age int (12),
+ Std_Phone_No varchar(10),
+ Std_city varchar(20),
+ Std_Country varchar (20)
+);
+
+/*----Show Table Content------*/
+desc user;
+
+
+/* Change Column Name*/
+ALter table  user
+rename column Std_id to Std_Id;
+
+/*-----show table Details na and information ------------*/
+select * from user;
+
+/*------ insert Data in user table_-----*/
+insert into user(Std_id,Std_Name,Std_Age,Std_Phone_No ,Std_city , Std_Country )
+ Values
+(8, 'rohit', 22, 9656598500, 'Goa', 'India'),
+(4, 'Pooja', 19, 9345789565, 'Mangaon', 'India'),
+(5, 'Sanjana', 21, 9326317785, 'Mumbai', 'India'),
+(6, 'Sam', 32, 5588779988, 'kalombo', 'japan'),
+(7, 'fakar', 31, 7788778877, 'jambo', 'pakistan');
+
+/*------Delete Specific column--------*/
+
+delete from user
+where std_id=8;
+
+
+/*----------ADD Column------------*/
+
+alter table user
+Add Std_Department varchar(15); 
+
+
+
+
+
+
+ 
+
+
+
