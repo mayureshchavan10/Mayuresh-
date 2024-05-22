@@ -1,0 +1,75 @@
+1.Data Definition Language (DDL)
+ ---------------------------------------------------
+          DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+          All the command of DDL are auto-committed that means it permanently save all the changes in the database.
+
+    Here are some commands that come under DDL:
+
+       CREATE
+       ALTER
+       DROP
+       TRUNCATE
+
+2.Data Manipulation Language(DML)
+   -------------------------------------------------
+         DML commands are used to modify the database. It is responsible for all form of changes in the database.
+         The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
+
+ Here are some commands that come under DML:
+
+    INSERT
+    UPDATE
+    DELETE
+
+ Syntax:
+
+   INSERT INTO TABLE_NAME    
+         (col1, col2, col3,.... col N)  
+                      VALUES (value1, value2, value3, .... valueN);  
+Or
+
+  INSERT INTO TABLE_NAME    
+             VALUES (value1, value2, value3, .... valueN);    
+
+3.Data Control Language(DCL)
+   ---------------------------------------------------------
+       DCL commands are used to grant and take back authority from any database user.
+
+    Here are some commands that come under DCL:
+       Grant
+       Revoke
+a. Grant: It is used to give user access privileges to a database.
+
+Example
+
+
+b. Revoke: It is used to take back permissions from the user.
+
+Example
+
+REVOKE SELECT, UPDATE ON MY_TABLE FROM USER1, USER2;  
+
+4. Transaction Control Language(TCL)
+   -----------------------------------------------------
+         TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
+
+  Here are some commands that come under TCL:
+
+     COMMIT
+     ROLLBACK
+     SAVEPOINT
+
+          a. Commit: Commit command is used to save all the transactions to the database.
+
+   Syntax:
+
+   COMMIT;  
+
+Example:
+
+DELETE FROM CUSTOMERS  
+WHERE AGE = 25;  
+COMMIT;  
+b. Rollback: Rollback command is used to undo transactions that have not already been saved to the database.
+
+
