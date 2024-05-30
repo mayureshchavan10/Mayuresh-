@@ -1,0 +1,19 @@
+Why Should We Use JDBC
+
+Before JDBC, ODBC API was the database API to connect and execute the query with the database. But, ODBC API uses ODBC driver which is written in C language (i.e. platform dependent and unsecured). That is why Java has defined its own API (JDBC API) that uses JDBC drivers (written in Java language).
+
+We can use JDBC API to handle database using Java program and can perform the following activities:
+
+Connect to the database
+Execute queries and update statements to the database
+Retrieve the result received from the database.
+Do You Know
+How to connect Java application with Oracle and Mysql database using JDBC?
+What is the difference between Statement and PreparedStatement interface?
+How to print total numbers of tables and views of a database using JDBC?
+How to store and retrieve images from Oracle database using JDBC?
+How to store and retrieve files from Oracle database using JDBC?
+
+What is API
+API (Application programming interface) is a document that contains a description of all the features of a product or software. It represents classes and interfaces that software programs can follow to communicate with each other. An API can be created for applications, libraries, operating systems, etc.
+
