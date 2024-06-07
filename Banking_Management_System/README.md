@@ -12,8 +12,9 @@
 # 📦 DATABBASE --
       database name-- banking_system
       database table_
-              >> accounts____ account_number,full_name,email,balance,security_pin.
-              >>User___ full_name,email, password
+                 >>User___ full_name,email, password
+             >> accounts____ account_number,full_name,email,balance,security_pin.
+           
 
 
 # 🌐 Technologies Used
